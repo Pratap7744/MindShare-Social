@@ -7,7 +7,7 @@ const NewsSection = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const API_KEY = '078d72a0887f42ac8607ce7664500427'; // Replace with your API key
+  const API_KEY = ''; // Replace with your API key
   const NEWS_URL = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_KEY}`;
 
   useEffect(() => {
